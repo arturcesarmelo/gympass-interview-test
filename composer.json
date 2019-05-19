@@ -1,0 +1,28 @@
+{
+	"name": "GymPass Test",
+  "description": "A test to gympass PL backend",
+  "type": "System",
+  "license": "MIT",
+  "version":"1.0",
+  "authors": [
+    {
+      "name": "Artur de Melo",
+      "email": "arturcesarmelo@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.8"
+  },
+  "autoload": {
+    "psr-4":{
+      "App\\":"app/"
+    },
+    "files":[
+      "app/Services/utils.php"
+    ]
+  },
+  "require-dev": {
+    "bajankristof/dumper": "^1.0",
+    "phpunit/phpunit": "^7"
+	}
+}
