@@ -15,7 +15,7 @@ class Server extends Terminal{
 		if (!$port)
 			$port = '8000';
 
-		echo $this->success("Server runing at http://localhost:{$port}\n\nPress Ctrl + C to quit.");
+		echo $this->success("Server is runing at http://localhost:{$port}\n\nPress Ctrl + C to quit.");
 
 		exec("php -S localhost:{$port} bootstrap.php");
 	}
